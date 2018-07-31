@@ -5,3 +5,4 @@ Reading is good, but practicing is even more \o/
 Modules studied:
 
 * path
+* fs
