@@ -4,5 +4,5 @@ Reading is good, but practicing is even more \o/
 
 Modules studied:
 
-* path
-* fs
+* path ``` node path.js ```
+* fs ``` node fs.js ```

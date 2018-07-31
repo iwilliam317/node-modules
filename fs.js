@@ -8,7 +8,7 @@ const path = require('path');
 //   console.log('Saved!');
 // });
 
-//unlink
+//unlink()
 // method deletes the specified file
 fs.unlink(path.join(__dirname, 'fs', 'mynewfile1.txt'), function (err) {
   if (err) throw err;
