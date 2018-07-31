@@ -10,8 +10,12 @@ console.log(`${__dirname}`);
 
 // resolve
 // Resolves the specified paths into an absolute path
-console.log(`${path.resolve(__dirname)}`);
+console.log(`${path.resolve('public')}`);
 
 // join
 // Joins the specified paths into one
-console.log(`${path.join('Users', 'Refsnes', 'demo_path.js')}`);
+console.log(`${path.join(__dirname, 'public', 'views')}`);
+
+//extname
+//Returns the file extension of a path
+console.log(path.extname('index.js'));
