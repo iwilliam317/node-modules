@@ -7,3 +7,4 @@ Modules studied:
 * path ``` node path.js ```
 * fs ``` node fs.js ```
 * request ``` node request.js ```
+* mocha ``` npx mocha ```
