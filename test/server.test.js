@@ -12,8 +12,16 @@ describe('GET /', () => {
   it('should return a status code 200', done => {
     chai.request(app).get('/')
       .end((error, response) => {
-         expect(response.status).to.be.equal(200);
+        expect(response.status).to.be.equal(200);
         expect(response.ok).to.be.true;
+      });
+    done();
+  });
+
+  it('should return Hello World', done => {
+    chai.request(app).get('/')
+      .end((error, response) => {
+        expect(response.text).to.be.equal('Hello World!');
       });
     done();
   });
