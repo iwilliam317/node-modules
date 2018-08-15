@@ -6,6 +6,7 @@ describe("Jasmine test", function() {
    car = {
     model: 'Ferrari 458',
     color: 'red',
+    year: 2016,
     start: () => console.log('starting...')
    }
   });
@@ -21,6 +22,13 @@ describe("Jasmine test", function() {
   describe('method #toBeDefined', () => {
     it('test two', () => {
       expect(car.color).toBeDefined();
+    });
+  });
+
+  //toBeGreaterThan
+  describe('method #toBeGreaterThan', () => {
+    it('test two', () => {
+      expect(car.year).toBeGreaterThan(2010);
     });
   });
 
