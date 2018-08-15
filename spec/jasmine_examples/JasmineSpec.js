@@ -39,4 +39,19 @@ describe("Jasmine test", function() {
     });
   });
 
+  //x 
+  describe('method #x', () => {
+    xit('test five', () => {
+      expect(car.year).toBeGreaterThanOrEqual(2010);
+    });
+  });
+
+  //pending() 
+  describe('method #pending', () => {
+    it('test six', () => {
+      expect(car.year).toBeGreaterThanOrEqual(2010);
+      pending('pending');
+    });
+  });
+
 });
