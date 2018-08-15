@@ -32,4 +32,11 @@ describe("Jasmine test", function() {
     });
   });
 
+  //toBeGreaterThanOrEqual
+  describe('method #toBeGreaterThanOrEqual', () => {
+    it('test four', () => {
+      expect(car.year).toBeGreaterThanOrEqual(2010);
+    });
+  });
+
 });
