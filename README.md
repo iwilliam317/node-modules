@@ -8,3 +8,4 @@ Modules studied:
 * fs ``` node fs.js ```
 * request ``` node request.js ```
 * mocha/chai ``` npm test ```
+* jasmine ``` jasmine ```
