@@ -27,7 +27,7 @@ describe("Jasmine test", function() {
 
   //toBeGreaterThan
   describe('method #toBeGreaterThan', () => {
-    it('test two', () => {
+    it('test three', () => {
       expect(car.year).toBeGreaterThan(2010);
     });
   });
