@@ -5,14 +5,22 @@ describe("Jasmine test", function() {
   beforeEach(function() {
    car = {
     model: 'Ferrari 458',
-    color: 'yellow',
+    color: 'red',
     start: () => console.log('starting...')
    }
   });
-  
+
+  //toBe()
   describe('macther #toBe', () => {
-    it("should be able to play a Song", function() {
+    it("test one", function() {
      expect(car.model).toBe('Ferrari 458');  
+    });
+  });
+
+  //toBeDefined()
+  describe('method #toBeDefined', () => {
+    it('test two', () => {
+      expect(car.color).toBeDefined();
     });
   });
 
