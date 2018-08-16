@@ -39,6 +39,15 @@ describe("Jasmine test", function() {
     });
   });
 
+  //toHaveBeenCalled
+  describe('', () => {
+    it('', () => {
+      spyOn(car, 'start');
+      car.start();
+      expect(car.start).toHaveBeenCalled();
+    })
+  });
+
   //x 
   describe('method #x', () => {
     xit('test five', () => {
