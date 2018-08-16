@@ -9,3 +9,4 @@ Modules studied:
 * request ``` node request.js ```
 * mocha/chai ``` npm test ```
 * jasmine ``` jasmine ```
+* http ``` node http.js ```
