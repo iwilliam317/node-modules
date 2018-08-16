@@ -40,24 +40,27 @@ describe("Jasmine test", function() {
   });
 
   //toHaveBeenCalled
-  describe('', () => {
-    it('', () => {
+  describe('method #toHaveBeenCalled toHaveBeenCalledTimes', () => {
+    it('test five', () => {
       spyOn(car, 'start');
       car.start();
+      car.start();
       expect(car.start).toHaveBeenCalled();
+      expect(car.start).toHaveBeenCalledTimes(2);
+
     })
   });
 
   //x 
   describe('method #x', () => {
-    xit('test five', () => {
+    xit('test six', () => {
       expect(car.year).toBeGreaterThanOrEqual(2010);
     });
   });
 
   //pending() 
   describe('method #pending', () => {
-    it('test six', () => {
+    it('test seven', () => {
       expect(car.year).toBeGreaterThanOrEqual(2010);
       pending('pending');
     });
