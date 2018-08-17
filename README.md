@@ -10,3 +10,4 @@ Modules studied:
 * mocha/chai ``` npm test ```
 * jasmine ``` jasmine ```
 * http ``` node http.js ```
+* express ``` node express.js ```
