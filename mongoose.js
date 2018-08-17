@@ -17,8 +17,18 @@ const Dog = mongoose.model('Dog', DogSchema);
 Dog.create({ 'name': 'Tsuki'});
 
 // returns all dogs
+// Dog.find({}, (error, results) => {
+//   if (error) throw error;
+//   console.log(results);
+// });
+
+// removes all dogs
+Dog.remove({}, error => {
+  if (error) throw error;
+})
+
+// checks if all dogs were removed
 Dog.find({}, (error, results) => {
   if (error) throw error;
   console.log(results);
 });
-
