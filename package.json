@@ -16,6 +16,7 @@
     "fs": "0.0.1-security",
     "jasmine": "^3.2.0",
     "mocha": "^5.2.0",
+    "mongoose": "^5.2.8",
     "request": "^2.87.0"
   }
 }
