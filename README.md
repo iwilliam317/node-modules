@@ -4,10 +4,24 @@ Reading is good, but practicing is even more \o/
 
 Modules studied:
 
-* path ``` node path.js ```
-* fs ``` node fs.js ```
-* request ``` node request.js ```
-* mocha/chai ``` npm test ```
-* jasmine ``` jasmine ```
-* http ``` node http.js ```
-* express ``` node express.js ```
+* path 
+``` node path.js ```
+
+* fs 
+``` node fs.js ```
+
+* request 
+``` node request.js ```
+
+* mocha/chai 
+``` npm test ```
+
+* jasmine 
+``` jasmine ```
+
+* http 
+``` node http.js ```
+
+* express 
+``` node express.js ```
+
