@@ -25,3 +25,6 @@ Modules studied:
 - **express**
 ``` node express.js ```
 
+- **mongoose**
+``` node mongoose.js ```
+
