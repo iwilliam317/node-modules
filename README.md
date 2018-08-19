@@ -28,3 +28,6 @@ Modules studied:
 - **mongoose**
 ``` node mongoose.js ```
 
+- **jsonwebtoken**
+``` node jwt ```
+
