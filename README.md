@@ -31,3 +31,7 @@ Modules studied:
 - **jsonwebtoken**
 ``` node jwt ```
 
+- **express-session**
+``` node express_session ```
+
+
