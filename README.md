@@ -34,4 +34,8 @@ Modules studied:
 - **express-session**
 ``` node express_session ```
 
+- **express-validator**
+``` node express_validator ```
+
+
 
