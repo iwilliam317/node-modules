@@ -8,9 +8,15 @@ app.use(expressSession({
   saveUninitialized: true
 }));
 
-app.get('/session', (request, response) => {
-  request.session.user = 'william';
+app.get('/session/:name', (request, response) => {
+  const name = request.params.name;
 
-  response.send(request.session.user);
+  if(name!==undefined && name==='william'){
+    request.session.authenticated = true;
+  }
+  else {
+    request.session.authenticated = false;
+  }
+  response.send(request.session.authenticated);
 });
 
