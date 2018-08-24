@@ -9,5 +9,16 @@
   Email: <input type="text" name="user[email]">
   <button type="submit">Send</button>
   </form>
+  <% if (errors.length >0){ %>
+        <div>
+          <strong>Warning!</strong>
+          <ul>
+            <% for(var error of errors){ %>
+              <li><%= error.msg%></li>             
+            <% }  %>
+          </ul>
+
+        </div>
+  <% } %>
 </body>
 </html>

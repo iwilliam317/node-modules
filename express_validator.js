@@ -6,10 +6,10 @@ app.get('/form', (request, response) => {
 
 app.post('/save', (request, response) => {
     request.assert('name', 'Name can\'t be blank!').notEmpty();
-    let error = request.validationErrors();
-    console.log(error)
-    if (error){      
-      return response.render('form', { erros: erros})
+    let errors = request.validationErrors();
+    console.log(errors)
+    if (errors){      
+      return response.render('form', { errors: errors})
     }
     
 
