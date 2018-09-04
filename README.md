@@ -37,5 +37,8 @@ Modules studied:
 - **express-validator**
 ``` node express_validator ```
 
+- **multer**
+``` node multer ```
+
 
 
