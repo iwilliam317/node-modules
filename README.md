@@ -40,5 +40,9 @@ Modules studied:
 - **multer**
 ``` node multer ```
 
+- **sharp**
+``` node sharp ```
+
+
 
 
