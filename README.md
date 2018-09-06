@@ -43,6 +43,10 @@ Modules studied:
 - **sharp**
 ``` node sharp ```
 
+- **csv-parser**
+``` node csv_parser ```
+
+
 
 
 
