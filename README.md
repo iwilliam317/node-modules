@@ -49,6 +49,9 @@ Modules studied:
 - **ytdl**
 ``` node ytdl ```
 
+- **hapi**
+``` node hapi ```
+
 
 
 
