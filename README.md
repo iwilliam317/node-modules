@@ -5,13 +5,13 @@ Reading is good, but practicing is even more \o/
 Modules studied:
 
 - **path**
-``` node path.js ```
+``` node path ```
 
 - **fs**
-``` node fs.js ```
+``` node fs ```
 
 - **request**
-``` node request.js ```
+``` node request ```
 
 - **mocha/chai**
 ``` npm test ```
@@ -20,13 +20,13 @@ Modules studied:
 ``` jasmine ```
 
 - **http**
-``` node http.js ```
+``` node http ```
 
 - **express**
-``` node express.js ```
+``` node express ```
 
 - **mongoose**
-``` node mongoose.js ```
+``` node mongoose ```
 
 - **jsonwebtoken**
 ``` node jwt ```
