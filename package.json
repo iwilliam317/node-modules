@@ -29,5 +29,8 @@
     "request": "^2.87.0",
     "sharp": "^0.20.7",
     "ytdl-core": "^0.25.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
