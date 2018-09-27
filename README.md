@@ -52,6 +52,10 @@ Modules studied:
 - **hapi**
 ``` node hapi ```
 
+- **jest**
+``` node jest ```
+
+
 
 
 
