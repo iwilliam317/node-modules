@@ -53,7 +53,7 @@ Modules studied:
 ``` node hapi ```
 
 - **jest**
-``` node jest ```
+``` npx jest ```
 
 
 
