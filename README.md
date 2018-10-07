@@ -55,6 +55,8 @@ Modules studied:
 - **jest**
 ``` npx jest ```
 
+- **eslint**
+``` npx eslint inconsistency_eslint.js ```
 
 
 
