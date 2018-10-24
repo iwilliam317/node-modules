@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "NODE_ENV=TEST mocha --timeout 5000"
+    "test": "NODE_ENV=TEST mocha --timeout 5000",
+    "prettier": "prettier --write *.js"
   },
   "keywords": [],
   "author": "",
