@@ -1,3 +1,3 @@
-(function whatever(msg){  
-    console.log(msg);
-}('m'))
+(function whatever(msg) {
+  console.log(msg);
+})('m');

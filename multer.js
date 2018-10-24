@@ -13,5 +13,5 @@ app.post('/profile', (request, response, next) => {
     if (error) throw error;
 
     response.send('Uploaded!!');
-  })
-})
+  });
+});

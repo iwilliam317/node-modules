@@ -7,14 +7,14 @@ mongoose.Promise = global.Promise;
 const DogSchema = new mongoose.Schema({
   name: {
     type: String,
-    require: true
-  }
+    require: true,
+  },
 });
 
 const Dog = mongoose.model('Dog', DogSchema);
 
 // creates a dog
-Dog.create({ 'name': 'Tsuki'});
+Dog.create({ name: 'Tsuki' });
 
 // returns all dogs
 // Dog.find({}, (error, results) => {
@@ -25,7 +25,7 @@ Dog.create({ 'name': 'Tsuki'});
 // removes all dogs
 Dog.remove({}, error => {
   if (error) throw error;
-})
+});
 
 // checks if all dogs were removed
 Dog.find({}, (error, results) => {
