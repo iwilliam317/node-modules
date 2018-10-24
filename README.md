@@ -58,6 +58,9 @@ Modules studied:
 - **eslint**
 ``` npx eslint inconsistency_eslint.js ```
 
+- **prettier**
+``` npx prettier --write *.js ```
+
 
 
 

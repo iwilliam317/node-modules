@@ -5,13 +5,10 @@ app.get('/form', (request, response) => {
 });
 
 app.post('/save', (request, response) => {
-    request.assert('name', 'Name can\'t be blank!').notEmpty();
-    let errors = request.validationErrors();
-    console.log(errors)
-    if (errors){      
-      return response.render('form', { errors: errors})
-    }
-    
-
-})
-
+  request.assert('name', "Name can't be blank!").notEmpty();
+  let errors = request.validationErrors();
+  console.log(errors);
+  if (errors) {
+    return response.render('form', { errors: errors });
+  }
+});
