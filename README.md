@@ -61,6 +61,9 @@ Modules studied:
 - **prettier**
 ``` npx prettier --write *.js ```
 
+- **youch**
+` npm youch `
+
 
 
 
